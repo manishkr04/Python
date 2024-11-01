@@ -1,0 +1,167 @@
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-04a37924ffe27da53",
+                    "InstanceId": "i-0bf063088b2aded7a",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "pem_a",
+                    "LaunchTime": "2024-11-01T20:36:26+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "ap-south-1b",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-9-117.ap-south-1.compute.internal",
+                    "PrivateIpAddress": "172.31.9.117",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-43-204-107-127.ap-south-1.compute.amazonaws.com",
+                    "PublicIpAddress": "43.204.107.127",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-0745b4f4dc84583e4",
+                    "VpcId": "vpc-0d620416fdf6c52d6",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2024-11-01T20:36:27+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-041f31dae5ea5aaf2"
+                            }
+                        }
+                    ],
+                    "ClientToken": "1f1e9b24-a1bf-4c40-b5ce-a061e87ed3a4",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-43-204-107-127.ap-south-1.compute.amazonaws.com",
+                                "PublicIp": "43.204.107.127"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2024-11-01T20:36:26+00:00",
+                                "AttachmentId": "eni-attach-0e25f95668ea2206f",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "launch-wizard-1",
+                                    "GroupId": "sg-0e0103c4d3a888aeb"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:a8:ea:db:3c:91",
+                            "NetworkInterfaceId": "eni-0fcfd03aa313e3278",
+                            "OwnerId": "864899855310",
+                            "PrivateDnsName": "ip-172-31-9-117.ap-south-1.compute.internal",
+                            "PrivateIpAddress": "172.31.9.117",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-43-204-107-127.ap-south-1.compute.amazonaws.com",
+                                        "PublicIp": "43.204.107.127"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-9-117.ap-south-1.compute.internal",
+                                    "PrivateIpAddress": "172.31.9.117"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0745b4f4dc84583e4",
+                            "VpcId": "vpc-0d620416fdf6c52d6",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "launch-wizard-1",
+                            "GroupId": "sg-0e0103c4d3a888aeb"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "test_lambda"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "required",
+                        "HttpPutResponseHopLimit": 2,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "BootMode": "uefi-preferred",
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2024-11-01T20:36:26+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": true,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios"
+                }
+            ],
+            "OwnerId": "864899855310",
+            "ReservationId": "r-0cd348343cbf51c8a"
+        }
+    ],
+    "ResponseMetadata": {
+        "RequestId": "326c88bf-ae8e-4acc-838f-72c42fadf2b4",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "326c88bf-ae8e-4acc-838f-72c42fadf2b4",
+            "cache-control": "no-cache, no-store",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "vary": "accept-encoding",
+            "content-type": "text/xml;charset=UTF-8",
+            "content-length": "4700",
+            "date": "Fri, 01 Nov 2024 21:20:21 GMT",
+            "server": "AmazonEC2"
+        },
+        "RetryAttempts": 0
+    }
+}
